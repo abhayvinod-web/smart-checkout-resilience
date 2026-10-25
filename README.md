@@ -90,22 +90,6 @@ The checkout lifecycle is governed by an explicit finite-state machine to preven
                                                  ▼
                                        [ 6. RECOVERED & VERIFIED ]
 
-
-
-├── index.html                     # HTML entry point with meta & SEO headers
-├── package.json                   # Dependencies and scripts
-├── tsconfig.json                  # Strict TypeScript configuration
-├── vite.config.ts                 # Vite 6 configuration
-├── src/
-│   ├── main.tsx                   # React app bootstrap
-│   ├── App.tsx                    # Root component with simulation wrapper
-│   ├── index.css                  # Global Tailwind CSS imports
-│   ├── types/
-│   │   └── checkout.ts            # FSM types, bank health models, order interfaces
-│   ├── hooks/
-│   │   ├── useCheckoutFSM.ts      # Core state machine hook
-│   │   └── useAudioFeedback.ts    # Web Audio synthesized feedback
-│   └── components/
 │       ├── Header.tsx             # Brand header with security badges
 │       ├── BankHealthBar.tsx      # Real-time bank status telemetry
 │       ├── PaymentMethods.tsx     # UPI, Card, and NetBanking selectors
