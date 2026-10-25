@@ -89,10 +89,3 @@ The checkout lifecycle is governed by an explicit finite-state machine to preven
                                                  │
                                                  ▼
                                        [ 6. RECOVERED & VERIFIED ]
-
-│       ├── Header.tsx             # Brand header with security badges
-│       ├── BankHealthBar.tsx      # Real-time bank status telemetry
-│       ├── PaymentMethods.tsx     # UPI, Card, and NetBanking selectors
-│       ├── FailureModal.tsx       # State-preserving fallback overlay
-│       ├── SuccessReceipt.tsx     # Transaction audit and download receipt
-│       └── SimulatorControls.tsx  # Recruiter interactive trigger panel
